@@ -111,3 +111,130 @@ aula(eqk22, 30, 6).
 aula(oqz92, 35, 2).
 aula(wha17, 10, 1).
 aula(ltv19, 10, 1).
+
+
+%Estudiantes
+estudiante(3001, 1, [fis201, tll314]).
+estudiante(3002, 1, [eie1]).
+estudiante(3003, 1, [esp103]).
+estudiante(3004, 1, [soc101, lcc104, mat101, ccc107]).
+estudiante(3005, 0, [lcc104, esp103]).
+estudiante(3006, 1, [soc101, esp103, eie1]).
+estudiante(3007, 0, [fis201, soc101, tll314]).
+estudiante(3008, 1, [soc101]).
+estudiante(3009, 0, [sel406]).
+estudiante(3010, 1, [adm102, soc101, eie1]).
+estudiante(3011, 0, [lcc104]).
+estudiante(3012, 1, [esp103]).
+estudiante(3013, 1, [fis201]).
+estudiante(3014, 1, [mat101, tll314, eie1]).
+estudiante(3015, 0, [adm102]).
+estudiante(3016, 1, [fis201, adm102, tll314, lcc104]).
+estudiante(3017, 1, [ccc107, tll314]).
+estudiante(3018, 1, [lcc104, mat101, fis201]).
+estudiante(3019, 1, [adm102]).
+estudiante(3020, 0, [sel406, mat101, his101, tll314]).
+estudiante(3021, 0, [sel406, lcc104, eie1, soc101]).
+estudiante(3022, 1, [fis201, lcc104, sel406, esp103]).
+estudiante(3023, 1, [his101, tel201, adm102, ccc107]).
+estudiante(3024, 0, [adm102, esp103, lcc104]).
+estudiante(3025, 0, [fis201]).
+estudiante(3026, 1, [adm102]).
+estudiante(3027, 0, [sel406, adm102]).
+estudiante(3028, 0, [fis201]).
+estudiante(3029, 0, [eie1, ccc107, tel201, soc101]).
+estudiante(3030, 1, [sel406, fis201, his101, tel201]).
+estudiante(3031, 1, [adm102]).
+estudiante(3032, 1, [ccc107, sel406]).
+estudiante(3033, 0, [tll314, esp103, fis201]).
+estudiante(3034, 0, [adm102]).
+estudiante(3035, 1, [tll314, ccc107, his101, esp103]).
+estudiante(3036, 1, [fis201]).
+estudiante(3037, 0, [fis201]).
+estudiante(3038, 1, [tll314]).
+estudiante(3039, 1, [sel406, tel201]).
+estudiante(3040, 1, [lcc104, tel201, mat101, tll314]).
+estudiante(3041, 0, [adm102]).
+estudiante(3042, 0, [eie1, ccc107]).
+estudiante(3043, 1, [adm102]).
+estudiante(3044, 0, [ccc107, sel406]).
+estudiante(3045, 0, [sel406]).
+estudiante(3046, 0, [lcc104, tel201]).
+estudiante(3047, 0, [his101, tel201, mat101, soc101]).
+estudiante(3048, 0, [fis201, esp103, eie1]).
+estudiante(3049, 1, [fis201]).
+estudiante(3050, 1, [fis201]).
+estudiante(3051, 1, [his101, lcc104]).
+estudiante(3052, 0, [tel201, tll314, his101, adm102]).
+estudiante(3053, 1, [mat101, lcc104]).
+estudiante(3054, 1, [mat101, adm102]).
+estudiante(3055, 1, [tll314, soc101, tel201]).
+estudiante(3056, 1, [soc101, ccc107, fis201]).
+estudiante(3057, 1, [his101, soc101, ccc107]).
+estudiante(3058, 1, [esp103, tll314, fis201, adm102]).
+estudiante(3059, 1, [adm102, tel201, tll314, eie1]).
+estudiante(3060, 1, [sel406]).
+estudiante(3061, 1, [esp103, fis201, his101]).
+estudiante(3062, 1, [esp103, fis201]).
+estudiante(3063, 0, [ccc107, lcc104, soc101]).
+estudiante(3064, 1, [soc101]).
+estudiante(3065, 0, [fis201]).
+estudiante(3066, 1, [fis201, soc101, his101, tll314]).
+estudiante(3067, 1, [his101]).
+estudiante(3068, 1, [soc101]).
+estudiante(3069, 1, [his101, sel406]).
+estudiante(3070, 1, [fis201, esp103, eie1, mat101]).
+estudiante(3071, 1, [tel201]).
+estudiante(3072, 0, [esp103, mat101, lcc104, tll314]).
+estudiante(3073, 1, [esp103]).
+estudiante(3074, 0, [esp103, his101, tel201]).
+estudiante(3075, 1, [soc101, esp103]).
+estudiante(3076, 1, [mat101, tel201]).
+estudiante(3077, 1, [sel406]).
+estudiante(3078, 1, [esp103, fis201]).
+estudiante(3079, 0, [esp103]).
+estudiante(3080, 0, [adm102, fis201, tll314, mat101]).
+estudiante(3081, 0, [soc101]).
+estudiante(3082, 0, [eie1, tel201]).
+estudiante(3083, 1, [adm102, eie1, esp103, fis201]).
+estudiante(3084, 0, [esp103, tll314, ccc107]).
+estudiante(3085, 0, [eie1, his101, adm102, tel201]).
+estudiante(3086, 0, [fis201, adm102]).
+estudiante(3087, 0, [lcc104]).
+estudiante(3088, 0, [fis201]).
+estudiante(3089, 1, [tel201]).
+estudiante(3090, 0, [soc101]).
+estudiante(3091, 1, [soc101, sel406, ccc107, fis201]).
+estudiante(3092, 1, [ccc107, tel201]).
+estudiante(3093, 1, [tel201]).
+estudiante(3094, 0, [sel406, ccc107, tll314]).
+estudiante(3095, 0, [soc101, tel201]).
+estudiante(3096, 1, [esp103, adm102, tel201, ccc107]).
+estudiante(3097, 0, [mat101, sel406]).
+estudiante(3098, 0, [mat101, soc101]).
+estudiante(3099, 1, [mat101, adm102]).
+estudiante(3100, 0, [esp103, mat101]).
+estudiante(3101, 1, [fis201, mat101]).
+estudiante(3102, 0, [esp103, mat101]).
+estudiante(3103, 0, [esp103, mat101]).
+estudiante(3104, 0, [fis201, his101, ccc107]).
+estudiante(3105, 1, [soc101, lcc104]).
+estudiante(3106, 0, [tel201, mat101]).
+estudiante(3107, 1, [adm102, eie1, sel406]).
+estudiante(3108, 0, [mat101, eie1, lcc104, adm102]).
+estudiante(3109, 1, [his101, adm102, fis201]).
+estudiante(3110, 0, [esp103, eie1]).
+estudiante(3111, 1, [ccc107, adm102, mat101, tel201]).
+estudiante(3112, 1, [sel406]).
+estudiante(3113, 1, [esp103]).
+estudiante(3114, 0, [soc101, mat101]).
+estudiante(3115, 1, [adm102]).
+estudiante(3116, 0, [tll314, adm102]).
+estudiante(3117, 0, [sel406, eie1, lcc104, adm102]).
+estudiante(3118, 0, [mat101]).
+estudiante(3119, 1, [ccc107, mat101, tll314]).
+estudiante(3120, 0, [lcc104, his101, adm102, mat101]).
+estudiante(3121, 0, [esp103]).
+estudiante(3122, 0, [lcc104, adm102, tll314, mat101]).
+estudiante(3123, 1, [his101, eie1]).
+estudiante(3124, 0, [adm102, sel406, fis201, esp103]).
