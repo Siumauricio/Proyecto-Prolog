@@ -245,4 +245,12 @@ clist([_|L], N) :- length(L, O), N is O+2.
 comparar(X,NumberClass):- NumberClass==X.
 comparar([_|Y],NumberClass):- clist(Y,M),comparar(M,NumberClass).
 buscar(NumberClass,X):-estudiante(X,_,Cursos), comparar(Cursos,NumberClass).
-estudiantes_mas-nclases(NumberClass,ListaEstudiantes) :-findall(Cuenta,buscar(NumberClass,Cuenta),ListaEstudiantes).
+estudiantes_mas-nclases(NumberClass,ListaEstudiantes)
+:-findall(Cuenta,buscar(NumberClass,Cuenta),ListaEstudiantes).
+
+
+%Funcion 2
+es_zurdo(Id_e,Curso):- estudiante(Id_e,Zurdo,Clases), member(Curso,Clases), Zurdo = 1.
+lista_zurdos(Curso,Lista):-setof(Estudiante,es_zurdo(Estudiante,Curso),Lista).
+aula_adecuada(Id_a,Cantidad):- aula(Id_a,_,Mesas_z), Mesas_z >= Cantidad.
+aulas_adecuadas(Id_c,Lista):- lista_zurdos(Id_c,Lista_zurdos), length(Lista_zurdos,Cantidad), setof(Aula,aula_adecuada(Aula,Cantidad),Lista).
