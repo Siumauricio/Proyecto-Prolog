@@ -238,3 +238,11 @@ estudiante(3121, 0, [esp103]).
 estudiante(3122, 0, [lcc104, adm102, tll314, mat101]).
 estudiante(3123, 1, [his101, eie1]).
 estudiante(3124, 0, [adm102, sel406, fis201, esp103]).
+
+%Funcion 1
+clist([], 1).
+clist([_|L], N) :- length(L, O), N is O+2.
+comparar(X,NumberClass):- NumberClass==X.
+comparar([_|Y],NumberClass):- clist(Y,M),comparar(M,NumberClass).
+buscar(NumberClass,X):-estudiante(X,_,Cursos), comparar(Cursos,NumberClass).
+estudiantes_mas-nclases(NumberClass,ListaEstudiantes) :-findall(Cuenta,buscar(NumberClass,Cuenta),ListaEstudiantes).
